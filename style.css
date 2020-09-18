@@ -1,0 +1,33 @@
+p, article, aside
+{
+    font-size: 13px;
+}
+body
+{
+    font-family: Georgia;
+    background-image: url("images/background.jpg");
+}
+h1,h3
+{
+    color: rgb(102, 153, 153);
+}
+h4
+{
+    color: rgb(102, 0, 51);
+    font-size: 16px;
+}
+.roundedImage
+{
+    overflow:hidden;
+    border-radius:100px;
+    width:160px;
+    height:160px;
+}
+section, aside, header
+{
+    border: 3px black solid;
+}
+article, div
+{
+    border: 3px black dotted;
+}
