@@ -10,6 +10,8 @@ body
 h1,h3
 {
     color: rgb(102, 153, 153);
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 h4
 {
@@ -30,4 +32,20 @@ section, aside, header
 article, div
 {
     border: 3px black dotted;
+}
+video
+{
+    align-content: center;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }

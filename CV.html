@@ -7,17 +7,17 @@
 	</head>
 	<body>
 		<header>
-            <div class="roundedImage">
+            <section class="roundedImage">
                     <a href="images/photo.jpg"><img src="images/photo_mini.jpg" alt="Photo CV" title="Cliquez pour agrandir"/></a>
-            </div>
-            <div>
+            </section>
+            <section>
                 <h1>Alice Cabane</h1>
                 <h3>Etudiante Ingénieure en Objets Connectés</h3>
-            </div>
-            <div>
+            </section>
+            <section>
                 <p><strong>Date de naissance: 21/07/99</strong></p> 
                 <p><strong>Lieu de naissance: Paris</strong></p>
-            </div>
+            </section>
 		</header>
 		<aside>
             <h4>Contacts</h4>
@@ -28,6 +28,25 @@
 			<li>LinkedIn: <a href="https://www.linkedin.com/in/alice-cabane-641ba4177/?originalSubdomain=fr">@alice-cabane-641ba4177</a></li>
 			</ul>
 		</aside>
+        <aside>
+            <form method="post">
+                <div>
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="mail">e-mail :</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+                <div>
+                    <label for="msg">Message :</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+                 <div class="button">
+                    <button type="submit">Envoyer le message</button>
+                </div>
+            </form>
+        </aside>
         <section id="formation">
             <h4>Formation</h4>
             <article>
@@ -76,6 +95,13 @@
                     <li>Garde d'enfants (Sep 2017-Juin 2019)</li>
                 </ul>
             </article>
+		</section>
+        <section  id="video">
+            <h4>Mon Expérience à San Francisco</h4>
+            <video src="video/projet_tech_art_SF.mp4" width=400  height=300 controls poster="vignette.jpg">
+            Cette vidéo ne peut être affichée sur votre navigateur Internet.<br>
+            Une version est disponible en téléchargement sous <a href="URL">adresse du lien </a> . 
+            </video>
 		</section>
 	</body>
 </html>
